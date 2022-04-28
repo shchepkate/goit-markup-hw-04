@@ -128,31 +128,29 @@ body {color: var(--primary-text-color);
   color: var(--primary-title-color)
 }
 
+.header-link.current {
+  color: var(--accent-color);
+}
+
 .tel-link {
   display: flex;
   color: var(--primary-text-color);
   align-items: center;}
 
 
+.contact-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .header-link:hover,
 .header-link:focus,
 .tel-link:hover,
 .tel-link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
   }
 
-.header-link.current {
-  color: var(--accent-color);
-}
-
-.contact-icon {
-  
-  margin-right: 10px;
-  fill: var(--primary-text-color);}
-
-
-.contact-icon:hover {
-  fill: var(--accent-color);}
 
 /* Hero section */
 
